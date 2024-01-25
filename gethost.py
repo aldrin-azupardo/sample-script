@@ -3,45 +3,45 @@ from netmiko import ConnectHandler
 
 asw1 = {
     "device_type" : "cisco_ios",
-    "ip" : "192.168.1.253",
-    "username" : "jay.borabo",
-    "password" : "gabales07",
+    "ip" : "192.168.1.x",
+    "username" : "cisco",
+    "password" : "admin",
 }
 asw2 = {
     "device_type" : "cisco_ios",
-    "ip" : "192.168.1.252",
-    "username" : "jay.borabo",
-    "password" : "gabales07",
+    "ip" : "192.168.1.x",
+    "username" : "cisco",
+    "password" : "admin",
 }
 asw3 = {
     "device_type" : "cisco_ios",
-    "ip" : "192.168.1.251",
-    "username" : "jay.borabo",
-    "password" : "gabales07",
+    "ip" : "192.168.1.x",
+    "username" : "cisco",
+    "password" : "admin",
 }
 asw4 = {
     "device_type" : "cisco_ios",
-    "ip" : "192.168.1.250",
-    "username" : "jay.borabo",
-    "password" : "gabales07",
+    "ip" : "192.168.1.x",
+    "username" : "cisco",
+    "password" : "admin",
 }
 asw5 = {
     "device_type" : "cisco_ios",
-    "ip" : "192.168.1.249",
-    "username" : "jay.borabo",
-    "password" : "gabales07",
+    "ip" : "192.168.1.x",
+    "username" : "cisco",
+    "password" : "admin",
 }
 asw6 = {
     "device_type" : "cisco_ios",
-    "ip" : "192.168.1.240",
-    "username" : "jay.borabo",
-    "password" : "gabales07",
+    "ip" : "192.168.1.x",
+    "username" : "cisco",
+    "password" : "admin",
 }
 core = {
     "device_type" : "cisco_ios",
-    "ip" : "192.168.1.254",
-    "username" : "jay.borabo",
-    "password" : "gabales07"
+    "ip" : "192.168.1.x",
+    "username" : "cisco",
+    "password" : "admin"
 }
 
 all_devices = [asw1,asw2,asw3,asw4,asw5,asw6,core]
